@@ -6,11 +6,11 @@ pipeline {
     }
 
     stages {
-        stage(create a directories) {
+        stage('create a directories') {
             steps {
                 sh '''
                 mkdir cha
-                rm -rf
+                rm -rf cha
                 '''
                 
             }
